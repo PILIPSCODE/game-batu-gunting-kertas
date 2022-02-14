@@ -55,10 +55,12 @@ body{
     margin: 35px auto;
 }
 footer{
-  background: #aaaaaa;
-  height: 37px;
-  border-top: 3px solid;
-  text-align: center;
+  background-color: beige;
+  display: flex;
+  opacity: 0.8;
+  height:60px;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width:470px) {
   img{
@@ -83,13 +85,11 @@ footer{
       
 
 .bo{
-  margin-left: 20px;
-}
-footer h2{
-  font-size: 25px;
+  margin-left: 5px;
 }
 .fot{
   color: black;
+  opacity: 0.8;
 }
 .ok{
     position: absolute;

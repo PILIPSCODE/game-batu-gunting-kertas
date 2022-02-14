@@ -9,7 +9,8 @@ body{
 }
 .container {
     max-width: 500px;
-    margin: 73px auto;
+    margin:  auto;
+    margin-top: 70px;
     max-height: 500px;
     border: 5px solid;
     border-radius: 20px;
@@ -37,6 +38,30 @@ img{
 }
 .com{
     width:150px;
+}
+.tmbl{
+    position: relative;
+    margin: 5px auto;
+    width: max-content;
+}
+.tombol{
+    padding: 5px 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue;
+}
+.tombol a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    color: black;
+}
+.tombol:hover{
+    cursor: pointer;
+   transform: translateY(1px);
+   background-color: lightblue;
+   transition: all 1s;
 }
 .hasil{
     height: 50px;

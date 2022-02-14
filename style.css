@@ -43,6 +43,7 @@ img{
   margin: 50px auto;
   padding: 15px 60px;
   border: 1px solid;
+  color: black;
   font-size: 30px;
   text-decoration: none;
   background-color: aqua;
@@ -58,10 +59,12 @@ img{
 }
 
 footer{
-  background: #aaaaaa;
-  height: 37px;
-  border-top: 3px solid;
-  text-align: center;
+  background-color: beige;
+  display: flex;
+  opacity: 0.8;
+  height:60px;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width:470px) {
   img{
@@ -69,6 +72,9 @@ footer{
   }
   h1{
     font-size: 40px;
+  }
+  footer{
+    font-size: 10px;
   }
 }
 @media screen and (max-width:340px) {
@@ -78,11 +84,9 @@ footer{
  
 }
 .bo{
-  margin-left: 20px;
-}
-footer h2{
-  font-size: 25px;
+  margin-left: 5px;
 }
 .fot{
   color: black;
+  opacity: 0.8;
 }
