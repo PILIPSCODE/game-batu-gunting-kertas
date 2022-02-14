@@ -20,6 +20,7 @@ body{
     display: flex;
     margin: 2px auto;
     border-radius: 25px;
+    margin-left: 170px;
     border: 1px solid;
     background: black;
     justify-content: center;
@@ -46,10 +47,6 @@ img{
     text-align:center ;
     margin: 25px auto;
 }
-li img{
-    width: 100px;
-    border: 1px solid;
-}
 .hallo{
     display: flex;
     justify-content: end;
@@ -67,8 +64,6 @@ li{
 .skor{
     position: absolute;
     margin-top: 20px;
-    background: green;
-    border: 1px solid ;
 }
 .pl2{
     width:120px;
@@ -76,6 +71,7 @@ li{
 .area-p2{
     display: flex;
     margin: 2px auto;
+   
     border-radius: 25px;
     border: 1px solid;
     background: black;
@@ -96,12 +92,17 @@ li{
     background-color: aqua;
     color: black;
 }
-.ulang a{
+.ulang{
     padding: 5px 30px;
     border-radius: 10px;
+    background-color: blue;
+}
+.ulang a{
+    
+    text-decoration: none;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: blue;
+   
     color: black;
 }
 .mulai:hover{
@@ -110,7 +111,7 @@ li{
    background-color: lightblue;
    transition: all 1s;
 }
-.ulang a:hover{
+.ulang:hover{
     cursor: pointer;
    transform: translateY(1px);
    color: black;
@@ -129,4 +130,23 @@ li{
     background-color: black;
     font-size: 40px;
     text-decoration: none;
+}
+
+@media screen and (max-width:500px){
+    .area-p1{
+        margin: 2px auto;
+        width: 100px;
+        height: 100px;
+    }
+    .area-p2{
+        margin: 2px auto;
+        width: 100px;
+        height: 100px;
+    }
+     .pl1{
+        width: 80px;
+    }
+     .pl2{
+        width: 80px;
+    }
 }

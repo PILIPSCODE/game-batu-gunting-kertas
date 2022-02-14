@@ -60,6 +60,7 @@ img{
 footer{
   background: #aaaaaa;
   height: 37px;
+  border-top: 3px solid;
   text-align: center;
 }
 @media screen and (max-width:470px) {

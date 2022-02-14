@@ -20,6 +20,7 @@ body{
     display: flex;
     margin: 2px auto;
     border-radius: 25px;
+    margin-left: 170px;
     border: 1px solid;
     background: black;
     justify-content: center;
@@ -66,8 +67,6 @@ li{
 .skor{
     position: absolute;
     margin-top: 20px;
-    background: green;
-    border: 1px solid ;
 }
 .pilbot1{
     width:120px;
@@ -133,4 +132,22 @@ li{
     background-color: black;
     font-size: 40px;
     text-decoration: none;
+}
+@media screen and (max-width:500px){
+    .area-p1{
+        margin: 2px auto;
+        width: 100px;
+        height: 100px;
+    }
+    .area-p2{
+        margin: 2px auto;
+        width: 100px;
+        height: 100px;
+    }
+     .pilbot1{
+        width: 80px;
+    }
+     .pilbot2{
+        width: 80px;
+    }
 }
