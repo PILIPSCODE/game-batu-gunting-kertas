@@ -136,6 +136,7 @@ li{
     .area-p1{
         margin: 2px auto;
         width: 100px;
+        transform: translateX(18px);
         height: 100px;
     }
     .area-p2{

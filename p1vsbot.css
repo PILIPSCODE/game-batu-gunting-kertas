@@ -72,7 +72,8 @@ img{
     margin: 25px auto;
 }
 li img{
-    width: 100px;
+    width: 80px;
+    margin-left: 10px;
     border: 1px solid;
 }
 .hallo{
@@ -106,7 +107,8 @@ li{
 }
 @media screen and (max-width:281px){
     li img{
-        width: 50px;
+        width: 40px;
+        transform: rotateX(-100px);
         border: 1px solid;
     }
     li{
@@ -120,6 +122,7 @@ li{
     .img-bot{
         margin: 2px auto;
         width: 100px;
+        transform: translateX(20px);
         height: 100px;
     }
     .com{

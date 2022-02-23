@@ -138,6 +138,7 @@ li{
         margin: 2px auto;
         width: 100px;
         height: 100px;
+        transform: translateX(18px);
     }
     .area-p2{
         margin: 2px auto;
