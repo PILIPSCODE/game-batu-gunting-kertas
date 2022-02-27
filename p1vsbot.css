@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("img/images.png");
-}
+    background-image: url('img/bg.jpg');
+  }
 .container {
     max-width: 500px;
     margin:  auto;
@@ -14,7 +14,7 @@ body{
     max-height: 500px;
     border: 5px solid;
     border-radius: 20px;
-   background-color: white;
+    background-color: rgba(225, 225, 225 ,0.6);
 }
 .img-bot{
     display: flex;

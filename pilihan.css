@@ -17,7 +17,7 @@ h1 {
 
 
 body{
-  background-image: url("img/images.png");
+  background-image: url('img/bg.jpg');
 }
 .container {
   max-width: 1000px;
@@ -31,7 +31,7 @@ body{
   justify-content: center;
   max-width: 200px;
   padding: 5px 10px;
-  border: 1px solid;
+  border: 2px solid black;
   font-size: 30px;
   margin:50px auto;
   text-decoration: none;
@@ -51,7 +51,7 @@ body{
     border: 5px solid;
     max-width: 420px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(225, 225, 225 ,0.6);
     margin: 35px auto;
 }
 footer{
